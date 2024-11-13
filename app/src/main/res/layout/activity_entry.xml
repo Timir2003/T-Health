@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main"
+    tools:context=".EntryActivity">
+
+    <ImageView
+        android:id="@+id/LogoPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        tools:srcCompat="@drawable/piclogo" />
+
+    <TextView
+        android:id="@+id/entryLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/entryLabel"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/brightText"
+        android:textSize="13pt" />
+
+    <EditText
+        android:id="@+id/userLoginEntry"
+        android:fontFamily="monospace"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/userLoginHint"
+        android:textColorHint="@color/HintText" />
+
+    <EditText
+        android:id="@+id/userPasswordEntry"
+        android:fontFamily="monospace"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/userPasswordHint"
+        android:textColorHint="@color/HintText"/>
+
+    <CheckBox
+        android:id="@+id/RememberMeСheckBox"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:text="@string/RememberMe"
+        android:textColor="@color/brightText"/>
+
+    <Button
+        android:id="@+id/entryButton"
+        android:fontFamily="monospace"
+        android:layout_width="225dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/brightElements"
+        android:textColor="@color/main"
+        android:text="@string/entryButtonText"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/regLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="monospace"
+        android:layout_marginTop="25dp"
+        android:text="@string/regLinkText"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/HintText"
+        android:textSize="14sp" />
+
+</LinearLayout>

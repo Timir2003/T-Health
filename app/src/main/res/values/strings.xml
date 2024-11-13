@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">T-Health</string>
+
+    <string name="userLoginHint">Введите логин*</string>
+    <string name="userPasswordHint">Введите пароль*</string>
+    <string name="userEmailHint">Введите почту</string>
+
+    <string name="userPasswordConfirmHint">Подтвердите пароль*</string>
+
+    <string name="regLabel">Регистрация аккаунта</string>
+    <string name="entryLabel">Вход в аккаунт</string>
+
+    <string name="entryButtonText">Войти</string>
+    <string name="regButtonText">Зарегистрироваться</string>
+
+    <string name="entryLinkText"><u>Уже есть аккаунт?</u></string>
+    <string name="regLinkText"><u>Ещё нет аккаунта?</u></string>
+
+    <string name="RememberMe">Запомнить меня</string>
+    <string name="userAgreement">Принимаю <u>пользовательское соглашение</u></string>
+
+</resources>
